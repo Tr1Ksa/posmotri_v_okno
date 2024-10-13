@@ -10,13 +10,16 @@ html {
 
 .page {
   --second-family: "Oswald", sans-serif;
-  margin: 0 auto;
-  color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
-  background-color: #1b1919;
+  display: grid;
+  place-items: center;
   inline-size: 1200px;
-  block-size: auto;
+  block-size: 100%;
+  min-height: 100vh;
+  margin: auto;
+  color: white;
+  background-color: #1b1919;
 
 }
 
