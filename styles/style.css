@@ -10,8 +10,6 @@ html {
 
 .page {
   --second-family: "Oswald", sans-serif;
-  width: 1200px;
-  height: 800px;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -45,7 +43,7 @@ ol {
   flex-direction: row;
   align-items: flex-end;
   gap: 30px;
-  margin: 133px 30px;
+  padding:133px 30px;
 }
 
 .result {
