@@ -10,6 +10,8 @@ html {
 
 .page {
   --second-family: "Oswald", sans-serif;
+  width: 1200px;
+  height: 800px;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -44,7 +46,6 @@ ol {
   align-items: flex-end;
   gap: 30px;
   margin: 133px 30px;
-
 }
 
 .result {
@@ -52,7 +53,6 @@ ol {
   flex-direction: column;
   gap: 16px;
   min-width: 711px;
- 
 }
 
 .result__video-container {
@@ -86,8 +86,10 @@ ol {
 
 .search-form__fieldset-title {
   margin: 0 0 6px;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: lighter;
-  font-size: 18px;
+  font-size: 17px;
+  letter-spacing: 0.3px;
 }
 
 .visually-hidden {
@@ -107,9 +109,10 @@ ol {
   border: none;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 17px;
+  letter-spacing: 0.3px;
   background-color: rgb(0 0 0 / 0);
 }
 
@@ -215,7 +218,7 @@ ol {
   height: 210px;
   font-family: "Oswald", sans-serif;
   font-size: 75px;
-  line-height: 95%;
+  line-height: 94%;
   text-transform: uppercase;
 }
 
@@ -250,17 +253,26 @@ ol {
 
 .content__list-item:active {
   text-decoration: none;
-  background-color: #545050;
-} 
+}
 
 .content__card-link {
-  
+  display: block;
   color: #fff;
   text-decoration: none; 
 }
 
 .content__card-link:focus {
+  border: none;
+}
+
+.content__card-link:focus-visible {
+  border: none;
   border: 1px solid #fff;
+  border-radius: none;
+}
+
+.content__card-link_current {
+  background-color: #545050;
 }
 
 .content__video-card {
@@ -272,7 +284,6 @@ ol {
 .content__video-card-description-container {
   display: flex;
   flex-direction: column;
-  gap: 6px;
   width: 200px;
   height: 100%;
   text-align: left;
@@ -283,7 +294,6 @@ ol {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 30px;
-  line-height: 100%;
   text-transform: uppercase;
 }
 
@@ -305,20 +315,4 @@ ol {
   position: absolute;
   width: 100%;
   height: 100%;
-}
-
-.preloader-template {
-
-}
-
-.preloader-chasing-squares {
-
-}
-
-.square {
-
-}
-
-.error-template {
-
 }
