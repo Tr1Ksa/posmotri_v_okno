@@ -10,17 +10,16 @@ html {
 
 .page {
   --second-family: "Oswald", sans-serif;
-  font-family: 'Fira Sans Condensed', sans-serif;
-  font-size: 18px;
   display: grid;
   place-items: center;
-  inline-size: 1200px;
-  block-size: 100%;
   min-height: 100vh;
   margin: auto;
   color: white;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 18px;
   background-color: #1b1919;
-
+  inline-size: 1200px;
+  block-size: 100%;
 }
 
 h1,
@@ -313,7 +312,7 @@ ol {
 }
 
 .preloader {
-  position: absolute;
+  
   width: 100%;
   height: 100%;
 }
