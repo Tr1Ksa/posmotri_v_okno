@@ -8,18 +8,27 @@ html {
   block-size: 100%;
 }
 
-.page {
+/*.page {
   --second-family: "Oswald", sans-serif;
-  display: grid;
-  place-items: center;
-  min-height: 100vh;
-  margin: auto;
-  color: white;
+  margin: 0 auto;
+  color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   inline-size: 1200px;
   block-size: 100%;
+  place-items: center;
+}*/
+
+.page {
+  display: grid;
+  place-items: center;
+  inline-size: 1200px;
+  block-size: 100%;
+  min-height: 100vh;
+  margin: auto;
+  color: white;
+  background-color: #1b1919;
 }
 
 h1,
@@ -40,13 +49,21 @@ ul,
 ol {
   list-style: none;
 }
-
+/*
 .content {
   display: flex;
-  flex-direction: row;
   align-items: flex-end;
   gap: 30px;
   padding: 133px 30px;
+}
+*/
+.content {
+  display: flex;
+  align-items: flex-end;
+  gap: 30px;
+  inline-size: 1140px;
+  padding: 94px 0px;
+
 }
 
 .result {
@@ -122,7 +139,7 @@ ol {
 }
 
 .search-form__textfield:active {
-  border: none;
+  outline: none;
   outline: 1px solid #FFF;
 }
 
@@ -312,7 +329,7 @@ ol {
 }
 
 .preloader {
-  
+  position: fixed;
   width: 100%;
   height: 100%;
 }
