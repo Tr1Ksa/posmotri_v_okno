@@ -10,13 +10,14 @@ html {
 
 .page {
   --second-family: "Oswald", sans-serif;
-  margin: auto;
+  margin: 0 auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   inline-size: 1200px;
-  block-size: 100%;
+  block-size: auto;
+
 }
 
 h1,
@@ -43,7 +44,7 @@ ol {
   flex-direction: row;
   align-items: flex-end;
   gap: 30px;
-  padding:133px 30px;
+  padding: 133px 30px;
 }
 
 .result {
@@ -108,7 +109,6 @@ ol {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
-  font-weight: 400;
   font-size: 17px;
   letter-spacing: 0.3px;
   background-color: rgb(0 0 0 / 0);
