@@ -211,7 +211,7 @@ ol {
   height: 210px;
   font-family: "Oswald", sans-serif;
   font-size: 75px;
-  line-height: 94%;
+  line-height: 93%;
   text-transform: uppercase;
 }
 
@@ -286,8 +286,11 @@ ol {
 .content__video-card-description {
   display: -webkit-box;
   overflow: hidden;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 18px;
+  line-height: 90%;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
+
 }
 
 .content__video-card-thumbnail{
