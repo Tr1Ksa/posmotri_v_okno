@@ -23,6 +23,8 @@ html {
 .page {
   display: grid;
   place-items: center;
+  --second-family: "Oswald", sans-serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
   inline-size: 1200px;
   block-size: 100%;
   min-height: 100vh;
@@ -157,6 +159,7 @@ ol {
 
 .search-form__label-text {
   appearance: none;
+  letter-spacing: 1px;
 }
 
 .search-form__label-text:hover {
