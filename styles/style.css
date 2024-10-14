@@ -68,6 +68,7 @@ ol {
   align-items: flex-start;
   gap: 40px;
   height: 54px;
+  padding: 0 0 3px;
 }
 
 .search-form__fieldset {
@@ -194,6 +195,7 @@ ol {
   align-self: end;
   width: 194px;
   margin: 20px 0 0;
+  padding: 0 0 3px;
 }
 
 .content__details {
