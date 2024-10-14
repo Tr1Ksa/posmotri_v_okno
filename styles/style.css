@@ -270,10 +270,10 @@ ol {
 }
 
 .content__video-card-description-container {
-flex-grow: 1;
-flex-basis: 0;
-width: 200px;
-overflow: hidden;
+  flex-grow: 1;
+  flex-basis: 0;
+  width: 200px;
+  overflow: hidden;
 }
 
 .content__video-card-title {
