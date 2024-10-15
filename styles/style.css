@@ -215,9 +215,9 @@ ol {
   display: block;
   max-width: 259px;
   font-family: "Oswald", sans-serif;
+  font-weight: 700;
   font-size: 75px;
   line-height: 71px;
-  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -260,6 +260,7 @@ ol {
 
 .content__card-link:focus {
   outline: none;
+  background-color: #545050;
 }
 
 .content__card-link:focus-visible {
