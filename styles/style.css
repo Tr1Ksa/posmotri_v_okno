@@ -213,11 +213,11 @@ ol {
 
 .title {
   display: block;
-  max-width: 260px;
-  height: auto;
+  max-width: 259px;
   font-family: "Oswald", sans-serif;
   font-size: 75px;
-  line-height: 93%;
+  line-height: 71px;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
