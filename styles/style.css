@@ -133,8 +133,8 @@ ol {
 .search-form__label-text {
   font-size: 16px;
   letter-spacing: 1px;
-  appearance: none;
   cursor: pointer;
+  appearance: none;
 }
 
 .search-form__label-text:hover {
@@ -151,8 +151,12 @@ ol {
   cursor: pointer;
 }
 
+.search-form__pseudo-checkbox:hover + .search-form__label-text {
+  text-decoration: underline;
+}
+
 .search-form__label input[type="checkbox"]:checked + .search-form__pseudo-checkbox::before {
-  content: "";
+  content: '';
   display: block;
   width: 15px;
   height: 15px;
